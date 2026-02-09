@@ -23,7 +23,6 @@ const Navbar: React.FC<NavbarProps> = ({ setActiveTab }) => {
         <div className="hidden md:flex items-center gap-8 text-sm font-bold uppercase tracking-widest text-zinc-400">
           <a href="#portfolio" className="hover:text-yellow-400 transition-colors">Works</a>
           <a href="#services" className="hover:text-yellow-400 transition-colors">Services</a>
-          <a href="#consultant" className="hover:text-yellow-400 transition-colors">AI Concept</a>
           <a 
             href="https://www.youtube.com/@FCGStudioLA" 
             target="_blank" 

@@ -40,7 +40,6 @@ const Footer: React.FC = () => {
             <li><a href="#" className="text-zinc-400 hover:text-white transition-colors">Back to top</a></li>
             <li><a href="#portfolio" className="text-zinc-400 hover:text-white transition-colors">Selected Works</a></li>
             <li><a href="#services" className="text-zinc-400 hover:text-white transition-colors">Production Services</a></li>
-            <li><a href="#consultant" className="text-zinc-400 hover:text-white transition-colors">AI Concepting</a></li>
           </ul>
         </div>
 

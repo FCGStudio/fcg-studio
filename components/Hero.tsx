@@ -31,10 +31,10 @@ const Hero: React.FC = () => {
             <div className="absolute top-0 left-0 w-full h-full bg-white -translate-x-full group-hover:translate-x-0 transition-transform duration-300"></div>
           </a>
           <a 
-            href="#consultant" 
-            className="px-10 py-4 border border-zinc-700 hover:border-yellow-400 hover:text-yellow-400 transition-all font-bold text-lg uppercase tracking-widest w-full md:w-auto"
+            href="mailto:fcgstudiola@gmail.com" 
+            className="px-10 py-4 border border-zinc-700 hover:border-yellow-400 hover:text-yellow-400 transition-all font-bold text-lg uppercase tracking-widest w-full md:w-auto text-center"
           >
-            Start Concepting
+            Book a Session
           </a>
         </div>
       </div>
