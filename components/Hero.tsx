@@ -15,7 +15,7 @@ const Hero: React.FC = () => {
       </div>
 
       <div className="relative z-20 text-center px-4 max-w-5xl">
-        <h1 className="text-6xl md:text-9xl font-black italic tracking-tighter uppercase mb-6 leading-none">
+        <h1 className="text-6xl md:text-9xl font-black italic tracking-tight uppercase mb-6 leading-none">
           <span className="block text-white">Capture the</span>
           <span className="block text-yellow-400 yellow-glow">Culture</span>
         </h1>

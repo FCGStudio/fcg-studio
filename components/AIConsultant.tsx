@@ -57,7 +57,7 @@ const AIConsultant: React.FC = () => {
     <div className="max-w-4xl mx-auto px-4">
       <div className="text-center mb-12">
         <h2 className="text-yellow-400 font-bold uppercase tracking-widest text-sm mb-4">AI Concept Scout</h2>
-        <h3 className="text-4xl md:text-5xl font-black uppercase tracking-tighter italic">Brainstorm Your Vision</h3>
+        <h3 className="text-4xl md:text-5xl font-black uppercase tracking-tight italic">Brainstorm Your Vision</h3>
       </div>
 
       <div className="bg-zinc-900/50 border border-zinc-800 rounded-2xl overflow-hidden shadow-2xl shadow-yellow-400/5">
@@ -80,7 +80,7 @@ const AIConsultant: React.FC = () => {
           ))}
           {isLoading && (
             <div className="flex justify-start">
-              <div className="bg-zinc-800 p-4 rounded-xl rounded-tl-none border border-zinc-700 animate-pulse text-yellow-400 font-bold uppercase tracking-tighter italic">
+              <div className="bg-zinc-800 p-4 rounded-xl rounded-tl-none border border-zinc-700 animate-pulse text-yellow-400 font-bold uppercase tracking-tight italic">
                 Scanning aesthetics...
               </div>
             </div>
@@ -100,7 +100,7 @@ const AIConsultant: React.FC = () => {
           <button 
             onClick={handleSend}
             disabled={isLoading}
-            className="px-8 py-4 bg-yellow-400 text-black font-black uppercase tracking-tighter rounded-lg hover:bg-white transition-colors"
+            className="px-8 py-4 bg-yellow-400 text-black font-black uppercase tracking-tight rounded-lg hover:bg-white transition-colors"
           >
             Send
           </button>

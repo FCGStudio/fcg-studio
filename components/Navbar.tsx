@@ -1,5 +1,6 @@
 
 import React from 'react';
+import Logo from './Logo';
 
 interface NavbarProps {
   setActiveTab: (tab: string) => void;
@@ -13,13 +14,8 @@ const Navbar: React.FC<NavbarProps> = ({ setActiveTab }) => {
           className="flex items-center gap-3 cursor-pointer group"
           onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
         >
-          <div className="w-12 h-12 overflow-hidden rounded-full border-2 border-yellow-400 group-hover:scale-110 transition-transform">
-            <img 
-              src="https://images.unsplash.com/photo-1614850523296-d8c1af93d400?q=80&w=2070&auto=format&fit=crop" 
-              alt="FCG Logo" 
-              className="w-full h-full object-cover grayscale brightness-125 saturate-200 contrast-125"
-              style={{ filter: 'sepia(1) saturate(5) hue-rotate(-20deg) brightness(0.9)' }}
-            />
+          <div className="group-hover:scale-110 transition-transform duration-300">
+            <Logo className="w-12 h-12" />
           </div>
           <span className="text-2xl font-black tracking-tighter text-yellow-400 uppercase italic">FCG STUDIO</span>
         </div>
